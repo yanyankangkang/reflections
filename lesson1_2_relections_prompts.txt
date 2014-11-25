@@ -1,0 +1,2 @@
+How do you want to use git?
+I want to use it as vertion control and explore new code space without worrying break my program

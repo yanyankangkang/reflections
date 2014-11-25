@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+I build a new repository without any commits, because I need to control my vertion connecting to github
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It can remove or add files to staging area, it prepare all the changes in local reposiotry.
