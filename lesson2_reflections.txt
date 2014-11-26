@@ -3,3 +3,9 @@ I build a new repository without any commits, because I need to control my verti
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It can remove or add files to staging area, it prepare all the changes in local reposiotry.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I first use git status to check uncommit files, and use command: git add "filename.txt".
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When we want to create serveral versions of almost same files, we can use branch      
