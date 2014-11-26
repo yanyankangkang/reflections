@@ -8,4 +8,15 @@ How can you use the staging area to make sure you have one commit per logical ch
 I first use git status to check uncommit files, and use command: git add "filename.txt".
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-When we want to create serveral versions of almost same files, we can use branch      
+When we want to create serveral versions of almost same files, we can use branch
+
+How do the diagrams help you visualize the branch structure?
+It makes me clear about commit in each file doesn't influence each other, and every commit has its own parent
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+If team members work on different aspects of same project, with help of its common ancestor it will be merged without conflicts. However, if two programmer modify one function at the same time, git cannot tell which funtion is right one. So we need to manually solve merge conflicts. We present it in the diagram, so we can clearly which file we should compare to solve merge conflics.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros: we can save much time letting computer do the work when it can easily detect files should be merged. cons: it will be hard for computer to solve merge confilcts, it needs machine learning technique, which also cannot not guarantee complete correctness. So it had better let programmers themselves solve conflicts by communicating to others.
+
+       
